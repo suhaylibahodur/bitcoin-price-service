@@ -30,6 +30,8 @@ const getBitcoinPrice = async () => {
     }
 };
 
+getBitcoinPrice();
+
 // Update Bitcoin price every 10 seconds
 setInterval(getBitcoinPrice, UPDATE_FREQUENCY);
 
